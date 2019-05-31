@@ -1,16 +1,20 @@
 package main
 
 import (
+	"strconv"
+
 	"github.com/fochoac/go-ws1/ws1"
 	"github.com/fochoac/go-ws2/ws2"
 	"github.com/gin-gonic/gin"
 )
 
 var router *gin.Engine
+var port int = 8080
 
 func main() {
+
 	router = gin.Default()
 	ws1.Iniciar(router)
 	ws2.Iniciar(router)
-	router.Run("localhost:8080")
+	router.Run("0.0.0.0:" + strconv.Itoa(port))
 }

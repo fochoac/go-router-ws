@@ -1,0 +1,9 @@
+package: github.com/fochoac/go-router-ws
+import:
+- package: github.com/fochoac/go-ws1
+  subpackages:
+  - ws1
+- package: github.com/fochoac/go-ws2
+  subpackages:
+  - ws2
+- package: github.com/gin-gonic/gin

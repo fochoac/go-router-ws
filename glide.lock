@@ -1,8 +1,16 @@
-hash: b2b9d394211731e3a6e3e27db3c0e380b7e04b73dce88a58c648d6000f64ca54
-updated: 2019-05-30T22:00:11.6209558-05:00
+hash: 42d1e0942f4ea139fbc11f19074a0747bab2e31bd0dd1d05a3bf0099ec545b63
+updated: 2019-05-31T16:54:47.776464444-05:00
 imports:
+- name: github.com/fochoac/go-model-ws
+  version: e1ec4ea3f04a1556e82d49f50d2cb95b30f6d712
+  subpackages:
+  - prueba
+- name: github.com/fochoac/go-util-ws
+  version: ee640b5dfb85ad8d5916caf5a4390265d705ebfc
+  subpackages:
+  - constantes
 - name: github.com/fochoac/go-ws1
-  version: 2617babe40619402646c62affde6838d144e76f2
+  version: 5b6002797daa06c7cec07643d11cf90d99bd67ca
   subpackages:
   - ws1
 - name: github.com/fochoac/go-ws2

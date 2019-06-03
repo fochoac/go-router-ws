@@ -3,7 +3,7 @@ package main
 import (
 	"strconv"
 
-	"github.com/fochoac/go-ws1/ws1"
+	ws1 "github.com/fochoac/go-ws1/ws"
 	"github.com/fochoac/go-ws2/ws2"
 	"github.com/gin-gonic/gin"
 )

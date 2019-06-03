@@ -9,7 +9,7 @@ import (
 )
 
 var router *gin.Engine
-var port int = 8080
+var port int = 8888
 
 func main() {
 
